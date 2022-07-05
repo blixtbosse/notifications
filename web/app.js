@@ -1,6 +1,4 @@
-window.addEventListener('message', e => {
-    createNotification(e.data);
-});
+window.addEventListener('message', e => createNotification(e.data));
 
 const colors = {
     '~r~': 'red',
